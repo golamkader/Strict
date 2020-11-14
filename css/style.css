@@ -1,0 +1,385 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	line-height: 24px;
+
+ 
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: font-family: 'Lato', sans-serif; 
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+/*Global CSS Code Start*/
+
+.container{
+	width:1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+
+/*Global CSS End*/
+/*Hearder Section Start*/
+.header-section{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+
+}
+.logo{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+}
+
+.home{
+	width: 100%;
+	float: right;
+	margin: 10px auto;
+}
+
+.about{
+	width: 100%;
+	float: left;
+	margin: 10px;
+}
+/*banner-section start*/
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px 40px;
+	background: url("../images/jdfjd.png") center top no-repeat;
+	background-size: cover;
+
+}
+.banner-section .banner-inner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 20px;
+	text-align: center;
+}
+
+.banner-section .banner-inner h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-section .banner-inner .divider{
+	width: 40%;
+	height: 2px;
+	margin: 0px auto;
+	background: #15a4fa;
+}
+
+.banner-section .banner-inner p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    line-height: 2;
+    color: #fff;
+    
+}
+
+.banner-section .banner-inner .btn-info{
+padding: 15px 40px;
+background: transparent;
+border: 1px solid #15a4fa;
+color: #fff;
+font-size: 16px;
+display: inline-block;
+margin: 25px 0px;
+border-radius: 2px;
+transition: 1s;
+}
+.banner-section .banner-inner .btn-info:hover{
+background: #15a4fa;
+border: 1px solid #15a4fa;
+color: #fff;
+}
+
+.banner-section .banner-inner .icon{
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+	margin-top: 150px;
+}
+/*simple-section start*/
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+
+.simple-section .simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.simple-section .simple-inner h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 2;
+    color: #2d3950;
+    margin-bottom: 15px;
+}
+.simple-section .simple-inner p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2;
+    color: #999999;
+   
+}
+/*<!-- simple-section end -->*/
+
+/*<!-- feature-section start -->*/
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+}
+
+.feature-section .inner-feature{
+	width: 100%;
+	float: left;
+	text-align: center;
+
+} 
+
+.feature-section .inner-feature img{
+	margin-bottom: 20px;
+}
+
+.feature-section .inner-feature h4{
+    font-size: 20px;
+    line-height: 2px;
+    margin: 5px 0px 20px;
+    color: #596070;
+}
+.feature-section .inner-feature p{
+    font-size: 15px;
+    line-height: 26px;
+    margin: 5px 0px 20px;
+    color: #999999;
+    text-align: center;}
+
+/*<!-- feature-section end -->*/
+
+
+/*<!-- portfolio-section start -->*/
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+
+.portfolio-section .title{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 50px;
+	text-align: center;
+
+}
+
+.portfolio-section .title h1{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 3px;
+    margin: 10px 0px 35px;
+    color: #596070;}
+
+.portfolio-section .title p{
+     font-size: 12px;
+    line-height: 22px;
+    margin: 5px 0px 20px;
+    color: #999999;
+    text-align: center;
+}
+
+.portfolio-section .inner-portfolio{
+width: 100%;
+float: left;
+position: relative;
+}
+
+.portfolio-section .inner-portfolio .port-hover{
+	width: 95%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(32, 164, 244, .8);
+    display: none;
+}
+
+.portfolio-section .inner-portfolio .port-hover .inner-icons{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio-section .inner-portfolio:hover .port-hover{
+	display: block;
+}
+
+.portfolio-section .gap{
+	margin-top: 10px;
+
+}
+
+.port-hover a{
+	margin: 0px 3px;
+
+}
+/*<!-- portfolio-section end -->*/
+
+/*<!--stay-section start-->*/
+
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../images/staybg.png") center top no-repeat;
+	background-size: cover;
+}
+.stay-section .title{
+     font-size: 12px;
+    line-height: 22px;
+    margin: 5px 0px 20px;
+    color: #999999;
+    text-align: center;
+}
+
+.stay-section .title h1{
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 3px;
+    margin: 10px 0px 35px;
+    color: #fff;
+}
+.stay-section .title p{
+    font-size: 12px;
+    line-height: 22px;
+    margin: 5px 0px 20px;
+    color: #999999;
+    text-align: center;
+}
+
+.stay-section .main-form{
+	width: 55%;
+	margin: 0px auto;
+}
+.stay-section .main-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+}
+
+.stay-section .main-form .form-group .form-control{
+	width: 96%;
+	padding: 15px;
+	background: transparent;
+	border: 2px solid #999999; 
+	border-radius: 5px;
+	color: #999999;
+}
+.stay-section .main-form .form-group .form-control:focus{
+border: 2px solid #08c;
+outline: 0;
+}
+
+.stay-section .main-form .text-right{
+	text-align: right;
+}
+
+.form-group span{
+	color:#fff;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.stay-section .btn-primary{
+padding: 10px 40px;
+background: transparent;
+border: 1px solid #15a4fa;
+color: #fff;
+font-size: 16px;
+display: inline-block;
+border-radius: 2px;
+transition: 1s;
+}
+
+.stay-section .btn-primary:hover{
+background: #15a4fa;
+border: 1px solid #15a4fa;
+color: #fff;}
+
+
+/*<!-- stay-section end -->*/
+
+/*<!-- footer-section start -->*/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+}
+
+.footer-section p{
+	font-size: 14px;
+    font-weight: 400px;
+   line-height: 24px;
+   color: #999999;
+   margin-top: 0px;   
+   margin-left: 150px; 
+}
+.footer-section .social-icons{
+	display: block;
+	text-align: right;
+}
+.footer-section .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer-section .social-icons li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #15a4fa;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+}
+/*<!-- footer-section start -->*/
